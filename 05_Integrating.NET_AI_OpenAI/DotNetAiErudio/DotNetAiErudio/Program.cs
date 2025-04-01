@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.AddOpenAIService();
+builder.AddOpenAI();
 
 // Registra o ChatService como singleton
 builder.Services.AddScoped<ChatService>();

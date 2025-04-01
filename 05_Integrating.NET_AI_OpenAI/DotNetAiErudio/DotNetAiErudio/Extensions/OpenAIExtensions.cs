@@ -5,7 +5,7 @@ namespace DotNetAiErudio.Extensions
     public static class OpenAIExtensions
     {
 
-        public static WebApplicationBuilder AddOpenAIService(
+        public static WebApplicationBuilder AddOpenAI(
             this WebApplicationBuilder builder)
         {
             // var key = builder.Configuration.GetValue<string>("OpenAI:Key");
