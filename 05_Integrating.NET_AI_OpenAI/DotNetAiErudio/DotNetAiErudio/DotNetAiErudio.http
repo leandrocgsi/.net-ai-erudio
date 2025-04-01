@@ -1,0 +1,6 @@
+@DotNetAiErudio_HostAddress = http://localhost:5034
+
+GET {{DotNetAiErudio_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
