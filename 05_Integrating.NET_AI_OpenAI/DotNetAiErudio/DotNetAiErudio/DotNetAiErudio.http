@@ -1,6 +1,6 @@
-@DotNetAiErudio_HostAddress = http://localhost:5224
+@DotNetAiErudio_HostAddress = http://localhost:8080
 
-GET {{DotNetAiErudio_HostAddress}}/weatherforecast/
+GET {{DotNetAiErudio_HostAddress}}/scalar/v1
 Accept: application/json
 
 ###
