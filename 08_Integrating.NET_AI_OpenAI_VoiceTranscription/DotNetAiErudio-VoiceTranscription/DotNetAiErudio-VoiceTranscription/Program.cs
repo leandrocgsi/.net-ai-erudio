@@ -1,4 +1,5 @@
 using DotNetAiErudio_VoiceTranscription.Extensions;
+using DotNetAiErudio_VoiceTranscription.Service;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.AddOpenAI();
 
-// builder.Services.AddSingleton<ChatService>();
+builder.Services.AddSingleton<TranscriptionService>();
 
 builder.Services.AddCors(options => options.AddDefaultPolicy(builder =>
 {
