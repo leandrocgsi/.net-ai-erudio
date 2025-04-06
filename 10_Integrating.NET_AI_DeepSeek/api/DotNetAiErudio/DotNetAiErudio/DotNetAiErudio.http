@@ -1,0 +1,6 @@
+@DotNetAiErudio_HostAddress = http://localhost:8080
+
+GET {{DotNetAiErudio_HostAddress}}/scalar/v1
+Accept: application/json
+
+###
