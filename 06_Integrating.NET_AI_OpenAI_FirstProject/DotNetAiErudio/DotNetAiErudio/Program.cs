@@ -1,9 +1,13 @@
 using DotNetAiErudio.Extensions;
+using DotNetAiErudio.Service;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.AddOpenAI();
+
+builder.Services.AddSingleton<ChatService>();
+builder.Services.AddSingleton<RecipeService>();
 
 builder.Services.AddControllers();
 
