@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35906.104
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAiErudio-VoiceTranscription", "DotNetAiErudio-VoiceTranscription\DotNetAiErudio-VoiceTranscription.csproj", "{0E3387EE-97A9-479E-84E0-D34FC0DF71EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E3387EE-97A9-479E-84E0-D34FC0DF71EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3387EE-97A9-479E-84E0-D34FC0DF71EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3387EE-97A9-479E-84E0-D34FC0DF71EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3387EE-97A9-479E-84E0-D34FC0DF71EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16A43D88-087E-43C8-AE84-1187554C2875}
+	EndGlobalSection
+EndGlobal
